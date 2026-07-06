@@ -1,7 +1,7 @@
 
 
 // ধানের শীষের PNG ছবির লিংক (আপনার প্রোজেক্টের আসল বা লোকাল ইমেজের পাথ দিয়ে এগুলো পরিবর্তন করবেন)
-const PADDY_ICON = "/public/img/paddy.png"; // ডেমো হিসেবে ধানের শীষের ইমেজ
+const PADDY_ICON = "/img/paddy.png"; // ডেমো হিসেবে ধানের শীষের ইমেজ
 
 const IMAGES = {
   combineHarvester: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB9TDqhqjKV-ivm90OGeRCuNtFg2CYLPmM82xKq86BKQ&s=10', // বড় কম্বাইন হার্ভেস্টার

@@ -80,7 +80,7 @@ function HeroSection() {
     <div 
       className="absolute inset-0 bg-cover bg-center opacity-60 sm:opacity-70 group-hover:scale-105 transition-transform duration-700 z-0"
       style={{ 
-        backgroundImage: `url('/public/img/Gemini_Generated_Image_puhsmipuhsmipuhs.png')` 
+        backgroundImage: `url('../public/img/Gemini_Generated_Image_puhsmipuhsmipuhs.png')` 
       }}
     />
     {/* ডার্ক ও লাইট মিক্সড ওভারলে - টেক্সট রিডিবিলিটি ১০০% নিশ্চিত করার জন্য */}
