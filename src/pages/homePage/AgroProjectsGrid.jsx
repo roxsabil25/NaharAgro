@@ -6,7 +6,8 @@ const IMAGES = {
   cow: 'https://images.unsplash.com/photo-1546445317-29f4545e9d53',       // গরু
   tourism: 'https://images.unsplash.com/photo-1595113316349-9fa4ee24f884',   // এগ্রো-ট্যুরিজম / কৃষক
   broccoli: 'https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7',  // ব্রোকোলি
-  pumpkin: 'https://images.unsplash.com/photo-1506806732259-39c2d0268443'    // মিষ্টি কুমড়া
+  pumpkin: 'https://images.unsplash.com/photo-1506806732259-39c2d0268443',  
+  handLogo: '/img/handlogo.PNG',
 };
 
 // গ্রিড কার্ডের ডাটা অ্যারে
@@ -28,7 +29,7 @@ export default function AgroProjectsGrid() {
       <div className=" mx-auto text-center space-y-4 mb-12">
         {/* লোগো ও ব্র্যান্ড নেম */}
         <div className="flex flex-col items-center gap-1">
-          <span className="text-2xl">🌱</span>
+          <img src={IMAGES.handLogo} alt="" />
           <h4 className="font-extrabold text-sm tracking-wider uppercase text-gray-800 leading-none">
             Nahar Agro Complex
           </h4>
@@ -84,7 +85,7 @@ export default function AgroProjectsGrid() {
           
           {/* লোগো ও ব্র্যান্ড স্লোগান */}
           <div className="flex items-center gap-2">
-            <span className="text-xl">🌱</span>
+            <img src={IMAGES.handLogo} alt="" />
             <div>
               <p className="font-extrabold text-gray-800 leading-tight">Nahar Agro Complex</p>
               <p className="text-[10px] text-gray-400 font-bold uppercase tracking-wider">Agriculture & Organic Farms Company</p>

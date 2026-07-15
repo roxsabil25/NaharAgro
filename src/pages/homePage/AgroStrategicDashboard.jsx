@@ -4,10 +4,7 @@ import {
   Cpu, 
   TrendingUp, 
   Calendar, 
-  ArrowUpRight, 
-  Globe, 
-  Phone, 
-  Mail 
+  ArrowUpRight
 } from 'lucide-react';
 
 // ডেমো ইমেজ সোর্স (আপনার প্রোজেক্টের আসল ছবি দিয়ে এগুলো রিপ্লেস করে নিবেন)
